@@ -1,9 +1,9 @@
-import "./App.css";
+import "./Home.css";
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Home">
+      <header className="Home-header">
         <p>Hello</p>
         <a
           className="App-link"
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
