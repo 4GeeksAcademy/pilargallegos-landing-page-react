@@ -1,21 +1,27 @@
-import "./Home.css";
+import React from "react";
+import Navbar from "./componentes/Navbar";
+import Jumbotron from "./componentes/Jumbotron";
+import Button from "./componentes/Button";
 
-function Home() {
+import CardList from "./componentes/Card";
+
+const Home = () => {
+  const handleClick = () => {
+    alert("Hello!");
+  };
   return (
-    <div className="Home">
-      <header className="Home-header">
-        <p>Hello</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-left">
+      <Navbar />
+      <div>
+        <Jumbotron>
+          <Button text="Call to action!" onClick={handleClick} />
+        </Jumbotron>
+        <CardList>
+          <Button text="Find out more!"></Button>
+        </CardList>
+      </div>
     </div>
   );
-}
+};
 
 export default Home;
