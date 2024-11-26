@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./componentes/Navbar";
 import Jumbotron from "./componentes/Jumbotron";
 import Button from "./componentes/Button";
-
 import CardList from "./componentes/Card";
+import Footer from "./componentes/Footer";
 
 const Home = () => {
   const handleClick = () => {
@@ -20,6 +20,7 @@ const Home = () => {
           <Button text="Find out more!"></Button>
         </CardList>
       </div>
+      <Footer />
     </div>
   );
 };
