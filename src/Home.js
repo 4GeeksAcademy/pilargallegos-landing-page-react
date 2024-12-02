@@ -16,7 +16,7 @@ const Home = () => {
         <Jumbotron>
           <Button text="Call to action!" onClick={handleClick} />
         </Jumbotron>
-        <CardList>
+        <CardList style={{ justifyContent: "center" }}>
           <Button text="Find out more!"></Button>
         </CardList>
       </div>
