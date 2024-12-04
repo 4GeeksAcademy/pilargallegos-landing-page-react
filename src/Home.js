@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./componentes/Navbar";
 import Jumbotron from "./componentes/Jumbotron";
 import Button from "./componentes/Button";
-import CardList from "./componentes/Card";
+import CardList from "./componentes/CardList";
 import Footer from "./componentes/Footer";
 
 const Home = () => {
